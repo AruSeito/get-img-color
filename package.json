@@ -1,8 +1,8 @@
 {
   "name": "get-image-color",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "获取图片中的主要颜色",
-  "main": "./dict/index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
@@ -12,10 +12,10 @@
     "url": "git+https://github.com/AruSeito/get-img-color.git"
   },
   "files": [
-    "src/index.d.ts",
+    "./dist/index.d.ts",
     "dist"
   ],
-  "types": "src/index.d.ts",
+  "types": "./dist/index.d.ts",
   "author": "Aruseito",
   "license": "ISC",
   "bugs": {
