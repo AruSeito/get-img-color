@@ -16,3 +16,5 @@ npm install get-image-color
 //返回Promise<Map<rgba:string, count:number>>,按照出现次数排序
 const color = getImgColor(imgSrc).then().catch(e){}
 ```
+
+[DEMO](https://codesandbox.io/s/vibrant-keldysh-szy3q?file=/src/App.js)

@@ -1,8 +1,12 @@
 {
   "name": "get-image-color",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "获取图片中的主要颜色",
   "main": "./dist/index.js",
+  "keywords": [
+    "canvas",
+    "get-image-color"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
