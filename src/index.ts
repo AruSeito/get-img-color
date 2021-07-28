@@ -10,6 +10,7 @@ const getMainColor = (src: string): Promise<Map<string, number>> => {
     try {
       const canvas = document.createElement("canvas");
       const img = new Image();
+      img.crossOrigin = "";
       img.src = src;
       img.onload = () => {
         const color = getImgColor(canvas, img);

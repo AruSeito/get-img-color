@@ -1,6 +1,6 @@
 {
   "name": "get-image-color",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "获取图片中的主要颜色",
   "main": "./dist/index.js",
   "scripts": {

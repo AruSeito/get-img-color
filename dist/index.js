@@ -9,6 +9,7 @@ var getMainColor = function (src) {
         try {
             var canvas_1 = document.createElement("canvas");
             var img_1 = new Image();
+            img_1.crossOrigin = "";
             img_1.src = src;
             img_1.onload = function () {
                 var color = getImgColor(canvas_1, img_1);
